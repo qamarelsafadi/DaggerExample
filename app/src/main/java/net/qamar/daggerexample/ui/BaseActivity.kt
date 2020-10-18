@@ -6,7 +6,7 @@ import android.os.PersistableBundle
 import android.util.Log
 import androidx.lifecycle.Observer
 import dagger.android.support.DaggerAppCompatActivity
-import net.qamar.daggerexample.models.Resource
+import net.qamar.daggerexample.data.models.Resource
 import net.qamar.daggerexample.ui.auth.AuthActivity
 import net.qamar.daggerexample.util.SessionManager
 import javax.inject.Inject

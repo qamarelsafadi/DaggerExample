@@ -12,7 +12,7 @@ import com.bumptech.glide.RequestManager
 import dagger.android.support.DaggerAppCompatActivity
 import kotlinx.android.synthetic.main.activity_auth.*
 import net.qamar.daggerexample.R
-import net.qamar.daggerexample.models.Resource
+import net.qamar.daggerexample.data.models.Resource
 import net.qamar.daggerexample.ui.main.MainActivity
 import net.qamar.daggerexample.viewmodels.ViewModelProviderFactory
 import javax.inject.Inject

@@ -2,8 +2,8 @@ package net.qamar.daggerexample.ui.auth
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.ViewModel
-import net.qamar.daggerexample.models.Resource
-import net.qamar.daggerexample.models.User
+import net.qamar.daggerexample.data.models.Resource
+import net.qamar.daggerexample.data.models.User
 import javax.inject.Inject
 
 

@@ -7,6 +7,7 @@ import dagger.multibindings.IntoMap
 import net.qamar.daggerexample.di.ViewModelKey
 import net.qamar.daggerexample.ui.auth.AuthViewModel
 import net.qamar.daggerexample.ui.main.ui.home.HomeViewModel
+import net.qamar.daggerexample.ui.main.ui.post.PostsViewModel
 
 @Module
 abstract class MainViewModelModule {
@@ -16,5 +17,10 @@ abstract class MainViewModelModule {
     @IntoMap
     @ViewModelKey(HomeViewModel::class)
     abstract fun getBindHomeViewModel(homeViewModel: HomeViewModel): ViewModel
+
+    @Binds
+    @IntoMap
+    @ViewModelKey(PostsViewModel::class)
+    abstract fun getBindPostViewModel(postsViewModel: PostsViewModel): ViewModel
 
 }

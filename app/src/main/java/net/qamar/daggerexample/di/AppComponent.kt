@@ -8,7 +8,8 @@ import net.qamar.daggerexample.util.BaseApplication
 import net.qamar.daggerexample.util.SessionManager
 import javax.inject.Singleton
 @Singleton
-@Component(modules = [AndroidSupportInjectionModule::class , ActivityBuilderModule::class , AppModule::class , ViewModelFactoryModule::class])
+@Component(modules = [AndroidSupportInjectionModule::class , ActivityBuilderModule::class , AppModule::class ,
+    ViewModelFactoryModule::class])
 interface AppComponent : AndroidInjector<BaseApplication> {
 
 

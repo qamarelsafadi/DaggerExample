@@ -1,4 +1,4 @@
-package net.qamar.daggerexample.models
+package net.qamar.daggerexample.data.models
 
 import com.squareup.moshi.Json
 

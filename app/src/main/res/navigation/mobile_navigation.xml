@@ -12,7 +12,7 @@
         tools:layout="@layout/fragment_home" />
     <fragment
         android:id="@+id/nav_posts"
-        android:name="net.qamar.daggerexample.ui.main.ui.slideshow.PostsFragment"
+        android:name="net.qamar.daggerexample.ui.main.ui.post.PostsFragment"
         android:label="@string/menu_posts"
         tools:layout="@layout/fragment_posts" />
 </navigation>

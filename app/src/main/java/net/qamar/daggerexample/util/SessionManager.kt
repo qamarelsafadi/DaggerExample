@@ -1,13 +1,10 @@
 package net.qamar.daggerexample.util
 
 import androidx.lifecycle.LiveData
-import androidx.lifecycle.LiveDataReactiveStreams
 import androidx.lifecycle.MediatorLiveData
 import androidx.lifecycle.Observer
-import io.reactivex.functions.Function
-import io.reactivex.schedulers.Schedulers
-import net.qamar.daggerexample.models.Resource
-import net.qamar.daggerexample.models.User
+import net.qamar.daggerexample.data.models.Resource
+import net.qamar.daggerexample.data.models.User
 import javax.inject.Inject
 import javax.inject.Singleton
 
